@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub1-header">
+        <nav>
+            <a href="index.html"><img src="logo2.png" width="100" height="100"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="BLOG.HTML">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2021</h1>
+    </section>  
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="grad1.jpg">
+                <h2>Placement</h2>
+                <p>
+                    At St. Joseph's we live by our holy grail which is to provide students with the best of all the resources and 
+                    skills they need to clinch the dream job of theirs. 
+                    How do we do this? We build a victory road to reach their career by focusing on the 3S – Survival, 
+                    Sustainability and Success.<br>
+                    <p> To build this indestructible road to our student's success we have a separate department solely devoted to this task known as the Centre of placement and training. 
+                    It has been functioning untiringly towards the benefits of the students to strike out a difference in the corporate world. </p>
+                    <br>
+                   <p> Our college provides a friendly and challenging environment in order to meet the demands of today's competitive world. As the candle spreads, and the mirror reflects the light, the department spreads the light to reflect the dreams and goals of the students. 
+                    Instead of waiting for opportunities, 
+                    we try to make sure that these opportunities knock at your door.</p>
+                </p>
+                <div class="comment-box">
+                    <h3> Leave a comment </h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn"> POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Web Development</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Coputer Science</span>
+                    <span>34</span>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+            <h2>St.Joseph's Institute of Technology</h2>
+            <p>At St. Joseph's we live by our holy grail which is to provide students with the best of all the resources and
+                 skills they need to clinch the dream job of theirs. 
+                How do we do this? We build a victory road to reach their career 
+                by focusing on the 3S – Survival, Sustainability and Success.</p>
+                <ul class ="sci">
+                    <li><a href="https://www.facebook.com/St.josephsgroupofinstitutionsomrchennai/?ti=as"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/st.josephsgroupofinstitutions/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/st-joseph-s-group-of-institutions-omr-chennai/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/StJosephsGroup"><i class="fa fa-twitter"></i></a></li>
+                    
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>Old Mamallapuram Road, Semmancheri,<br> Chennai,<br> Tamil Nadu 600119</span>
+    
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p> <a href="tel:04424503132">044 2450 3132</a></p>
+                        
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="mailto:stjosephstechnology@stjosephstechnoloy.ac.in">stjosephstechnology@stjosephstechnoloy.ac.in</a></p>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+    
+        </div>
+    </footer>
+    <div class="copyrightText">
+        <p>© 2020 St Joseph's Institute Of Technology All Rights Reserved.  </p>
+    </div>
+    
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right = "0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+    </script> 
+ </body>
+ </html>

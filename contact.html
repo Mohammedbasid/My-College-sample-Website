@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub3-header">
+        <nav>
+            <a href="index.html"><img src="logo2.png" width="100" height="100"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="BLOG.HTML">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7779.172338713891!2d80.218451!3d12.869984!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90b3767be093efaa!2sSt.Joseph&#39;s%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1622478600966!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    <section class="Contact-Us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Old Mamallapuram Road, Semmancheri </h5>
+                        <p>Chennai, Tamil Nadu 600119</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>044 2450 3132</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>stjosephstechnology@stjosephstechnology.ac.in </h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+        
+       
+
+    
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+            <h2>St.Joseph's Institute of Technology</h2>
+            <p>At St. Joseph's we live by our holy grail which is to provide students with the best of all the resources and
+                 skills they need to clinch the dream job of theirs. 
+                How do we do this? We build a victory road to reach their career 
+                by focusing on the 3S – Survival, Sustainability and Success.</p>
+                <ul class ="sci">
+                    <li><a href="https://www.facebook.com/St.josephsgroupofinstitutionsomrchennai/?ti=as"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/st.josephsgroupofinstitutions/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/st-joseph-s-group-of-institutions-omr-chennai/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/StJosephsGroup"><i class="fa fa-twitter"></i></a></li>
+                    
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>Old Mamallapuram Road, Semmancheri,<br> Chennai,<br> Tamil Nadu 600119</span>
+    
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p> <a href="tel:04424503132">044 2450 3132</a></p>
+                        
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="mailto:stjosephstechnology@stjosephstechnoloy.ac.in">stjosephstechnology@stjosephstechnoloy.ac.in</a></p>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+    
+        </div>
+    </footer>
+    <div class="copyrightText">
+        <p>© 2020 St Joseph's Institute Of Technology All Rights Reserved.  </p>
+    </div>
+    
+    
+     <script>
+           var navLinks = document.getElementById("navLinks");
+           function showMenu()
+           {
+               navLinks.style.right = "0";
+           }
+           function hideMenu()
+           {
+               navLinks.style.right = "-200px";
+           }
+       </script> 
+</body>
+</html>
